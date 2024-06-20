@@ -95,6 +95,7 @@ class App extends Component {
   }
 
   onChangeStatus = id => {
+    const{countriesList}=this.state
     this.setState(previousState => ({
       countriesList: previousState.countriesList.map(eachItem => {
         if (eachItem.id === id) {
@@ -103,6 +104,9 @@ class App extends Component {
         return eachItem
       }),
     }))
+
+    const getFilteredlist = initialCountriesList.filter(eachObj => eachObj.id !== id)
+    this.setState({countriesList:getFilteredList})
   }
 
   render() {
