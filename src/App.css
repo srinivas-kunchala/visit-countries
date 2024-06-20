@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  font-family: 'roboto';
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app-container {
+  background-color: #161624;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.heading {
+  color: #f8fafc;
+}
+
+ul {
+  padding-left: 0px;
+  overflow: auto;
+  height: 50vh;
+}
+
+.visited-list {
+  list-style-type: none;
+}

@@ -1,0 +1,34 @@
+li {
+  background-color: #334155;
+  border: #f1f5f9 1px solid;
+  list-style-type: none;
+
+  padding: 20px;
+}
+
+.country-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.country-name {
+  color: #f1f5f9;
+  font-size: 20px;
+}
+
+.visit-button {
+  background-color: #3b82f6;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  height: 40px;
+  width: 100px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.visited-button {
+  background-color: transparent;
+  border: none;
+}
