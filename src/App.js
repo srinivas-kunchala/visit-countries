@@ -105,7 +105,7 @@ class App extends Component {
       }),
     }))
 
-    const getFilteredlist = initialCountriesList.filter(eachObj => eachObj.id !== id)
+    const getFilteredList = initialCountriesList.filter(eachObj => eachObj.id !== id)
     this.setState({countriesList:getFilteredList})
   }
 
